@@ -1,16 +1,3 @@
-
-## DOCKER DEBE ESTAR CORRIENDO
-
-## Comando para crear imagen en docker
-docker build -t nextjs-initial .
-
-## Comando para correr imagen en docker
-docker run --name=next-app -p 3000:3000 name-image
-
--p => puerto-maquina : puerto-docker
-name-image => nombre de la imagen
-
-## Config docker por Nextjs
 # Fuente: https://github.com/vercel/next.js/blob/canary/examples/with-docker/README.md
  
 # Install dependencies only when needed
