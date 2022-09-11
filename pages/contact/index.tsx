@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { MainLayout } from '../../components';
+import { MainLayout } from '../../components/layouts/MainLayout';
 
-const contact = () => {
+export default function index() {
 	return (
 		<MainLayout>
 			<h1>Contact Page</h1>
@@ -14,6 +14,4 @@ const contact = () => {
 			</p>
 		</MainLayout>
 	);
-};
-
-export default contact;
+}

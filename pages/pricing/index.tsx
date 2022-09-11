@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { MainLayout } from '../../components';
+import { MainLayout } from '../../components/layouts/MainLayout';
 
-function index() {
+export default function index() {
 	return (
 		<MainLayout>
 			<h1>Pricing Page</h1>
@@ -15,4 +15,3 @@ function index() {
 		</MainLayout>
 	);
 }
-export default index;
