@@ -124,6 +124,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 		props: {
 			pokemon,
 		},
+
+		revalidate: 86400, // 60*60*24 =>  actualiza el contenido de data cada 24 horas
 	};
 };
 
